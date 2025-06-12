@@ -84,3 +84,4 @@ Limpiar pantalla	clear
 date +%Y-%m-%d
 
 📅 Muestra la fecha actual en formato aaaa-mm-dd. Ideal para nombrar archivos diarios.
+hola
