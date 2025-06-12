@@ -1,0 +1,86 @@
+📚 ÍNDICE DE COMANDOS BÁSICOS EN TERMUX
+
+
+---
+
+📂 1. Navegar entre carpetas
+
+Acción	Comando
+
+Ver en qué carpeta estás	pwd
+Ver archivos y carpetas	ls
+Entrar a una carpeta	cd nombre_carpeta
+Subir un nivel (carpeta anterior)	cd ..
+Ir a tu carpeta principal (home)	cd ~ o simplemente cd
+
+
+
+---
+
+🗃️ 2. Crear cosas
+
+Acción	Comando
+
+Crear una carpeta	mkdir nombre_carpeta
+Crear archivo vacío	touch archivo.txt
+Crear archivo y escribir algo	echo "Hola mundo" > archivo.txt
+
+
+
+---
+
+📝 3. Abrir y editar archivos
+
+Acción	Comando
+
+Abrir archivo con nano	nano archivo.txt
+Ver contenido (solo leer)	cat archivo.txt
+
+
+
+---
+
+🗑️ 4. Borrar archivos y carpetas
+
+Acción	Comando
+
+Borrar un archivo	rm archivo.txt
+Borrar carpeta vacía	rmdir nombre_carpeta
+Borrar carpeta con todo	rm -r nombre_carpeta
+Borrar con confirmación	rm -ri nombre_carpeta
+
+
+
+---
+
+📋 5. Copiar y mover
+
+Acción	Comando
+
+Copiar archivo	cp archivo.txt copia.txt
+Copiar carpeta (completa)	cp -r carpeta1 carpeta2
+Mover archivo o renombrar	mv archivo.txt nueva_ruta/
+Renombrar archivo	mv viejo.txt nuevo.txt
+
+
+
+---
+
+📦 6. Otros útiles
+
+Acción	Comando
+
+Instalar nano (editor)	pkg install nano
+Dar permisos a Termux para ver almacenamiento	termux-setup-storage
+Salir de Termux	exit
+Limpiar pantalla	clear
+
+
+
+---
+
+🧠 Extra: Comando útil para hoy
+
+date +%Y-%m-%d
+
+📅 Muestra la fecha actual en formato aaaa-mm-dd. Ideal para nombrar archivos diarios.
