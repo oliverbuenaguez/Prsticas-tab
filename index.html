@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>PROYECTO SPCK</title>
+  <link rel="stylesheet" href="style.css" title="" type="" />
+</head>
+
+<body>
+  <h1>PROYECTO SPCK A GITUHB</h1>
+  
+  <h2>📚 ÍNDICE DE COMANDOS BÁSICOS EN TERMUX</h2 <h3>📂 1. Navegar entre carpetas </h3>
+  
+  <table>
+    <tr>
+      <th>
+        ACCIÓN
+      </th>
+      <th>
+        COMANDO
+      </th>
+    <tr>
+      <td>Ver en qué carpeta estás</td>
+      <td>pwd</td>
+    </tr>
+    <tr>
+      <td>Ver archivos y carpetas </td>
+      <td>ls</td>
+    </tr>
+    <tr>
+      <td>Entrar en una carpeta</td>
+      <td>cd nombre_carpeta</td>
+    </tr>
+    <tr>
+      <td>Subir un nivel (carpeta anterior) </td>
+      <td>cd ..</td>
+    </tr>
+    <tr>
+      <td>Ir a tu carpeta principal </td>
+      <td>cd ~ o simplemente cd </td>
+    </tr>
+  </table>
+  <hr />
+  <h3> 🗃️ 2. Crear cosas</h3>
+  <table>
+    <tr>
+      <th>
+        ACCIÓN
+      </th>
+      <th>
+        COMANDO
+      </th>
+    <tr>
+      <td>Crear una carpeta</td>
+      <td>mkdir nombre_carpeta</td>
+    </tr>
+    <tr>
+      <td>Crear archivos vacíos</td>
+      <td>touch archivo.txt</td>
+    </tr>
+    <tr>
+      <td>Crear archivo y escribir algo</td>
+      <td>echo "Hola mundo" > archivo.txt</td>
+    </tr>
+  </table>
+  <hr />
+  <hr />
+  
+  📝 3. Abrir y editar archivos
+  
+  Acción Comando
+  
+  Abrir archivo con nano nano archivo.txt
+  Ver contenido (solo leer) cat archivo.txt
+  
+  
+  
+  ---
+  
+  🗑️ 4. Borrar archivos y carpetas
+  
+  Acción Comando
+  
+  Borrar un archivo rm archivo.txt
+  Borrar carpeta vacía rmdir nombre_carpeta
+  Borrar carpeta con todo rm -r nombre_carpeta
+  Borrar con confirmación rm -ri nombre_carpeta
+  
+  
+  
+  ---
+  
+  📋 5. Copiar y mover
+  
+  Acción Comando
+  
+  Copiar archivo cp archivo.txt copia.txt
+  Copiar carpeta (completa) cp -r carpeta1 carpeta2
+  Mover archivo o renombrar mv archivo.txt nueva_ruta/
+  Renombrar archivo mv viejo.txt nuevo.txt
+  
+  
+  
+  ---
+  
+  📦 6. Otros útiles
+  
+  Acción Comando
+  
+  Instalar nano (editor) pkg install nano
+  Dar permisos a Termux para ver almacenamiento termux-setup-storage
+  Salir de Termux exit
+  Limpiar pantalla clear
+  
+  
+  
+  ---
+  
+  🧠 Extra: Comando útil para hoy
+  
+  date +%Y-%m-%d
+  
+  📅 Muestra la fecha actual en formato aaaa-mm-dd. Ideal para nombrar archivos diarios.
+  
+</body>
+
+</html>
